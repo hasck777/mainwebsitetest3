@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    background-image: url(./images/background.gif);
+   background-size: 140px;
+}
+
+#Cabeçalho {
+    padding: 150px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 75px;
+    width: 120px;
+    height: 3px;
+    
+   
+    
+}
+#github{
+    width: 36px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 5px;
+}
+#insta{
+    width: 36px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 5px;
+}
+#gmail-photo{
+    width: 40px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 5px;
+}
+
+.Container{
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+margin-top: 126px;
+}
+
+audio{
+    margin-top: 167px;
+    margin-left: 10px;
+}
+audio:hover
+{
+    transform: scale(1.1);filter: drop-shadow(2px 3px 3px #ff0000);
+}
+
+h2{
+    margin-top: -580px;
+    margin-left: 452px;
+    color: rgb(75, 9, 151);
+    font-size: 30px;
+}
